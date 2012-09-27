@@ -17,7 +17,7 @@ namespace
 		
 		ITEMIDLIST itemList = {0};
 		LPITEMIDLIST pItemlist = &itemList;
-		HRESULT hr = 0;
+		HRESULT hr = S_OK;
 
 		hr = SHGetDesktopFolder(&pDesktop);
 		if(SUCCEEDED(hr))
